@@ -67,7 +67,7 @@ public class SearchTreeMounter {
 				folhas.add(new Folha(filho, acumulador + p.getValor()));
 			}
 		}else{
-			Turma pivo = turmas.peek();
+			Turma pivo = disponiveis.peek();
 			List<Proposta> bidsSelected = propostas.parallelStream().filter(p -> p.getTurmas().contains(pivo)).collect(Collectors.toList());
 			List<Proposta> bidsToAdd = new ArrayList<>();
 			Set<Proposta> allCombinations = new HashSet();
@@ -178,7 +178,17 @@ public class SearchTreeMounter {
 	}
 	
 	private Proposta mountPropostaWithValorEstimado(Professor professor, List<Turma> turmas){
+		
+		Collections.sort(turmas, new Comparator<Turma>() {
+
+			@Override
+			public int compare(Turma o1, Turma o2) {
+				return Integer.compare(o1.getId(), o2.getId());
+			}
+		});
+		
 		String key = getKey(professor, turmas);
+		
 		if(valorProposta.get(key) != null){
 			return valorProposta.get(key);
 		}
