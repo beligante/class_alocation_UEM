@@ -1,3 +1,4 @@
+package solver;
 
 
 import java.util.ArrayList;
@@ -10,6 +11,7 @@ import entity.Folha;
 import entity.Professor;
 import entity.Proposta;
 import entity.Turma;
+import tree.SearchTreeMounter;
 import utils.CollectionUtils;
 
 public class CombinatorialAuctionSolver {

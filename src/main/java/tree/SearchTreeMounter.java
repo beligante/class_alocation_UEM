@@ -1,3 +1,4 @@
+package tree;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Collections;
@@ -15,6 +16,7 @@ import entity.No;
 import entity.Professor;
 import entity.Proposta;
 import entity.Turma;
+import restrictions.RestrictionsChecker;
 import utils.CollectionUtils;
 
 public class SearchTreeMounter {
@@ -27,12 +29,11 @@ public class SearchTreeMounter {
 	private Map<String, Proposta> valorProposta;
 	
 	public SearchTreeMounter(List<Proposta> propostas, List<Turma> turmas, List<Professor> professores) {
-		folhas = new ArrayList<>();
+		folhas = new ArrayList<Folha>();
 		penultimateLevel = professores.size() - 1;
 		this.propostas = propostas;
-		this.turmas = new PriorityQueue<>(new Comparator<Turma>() {
+		this.turmas = new PriorityQueue<Turma>(new Comparator<Turma>() {
 
-			@Override
 			public int compare(Turma o1, Turma o2) {
 				return Integer.compare(o1.getId(), o2.getId());
 			}
@@ -48,7 +49,7 @@ public class SearchTreeMounter {
 		
 		mountTree(raiz, new ArrayList<Proposta>(propostas), 0, 0, turmas);
 		
-		return new ArrayList<>(folhas);
+		return new ArrayList(folhas);
 	}
 
 	private void mountTree(No noPai, List<Proposta> propostas, int nivel, float acumulador, PriorityQueue<Turma> disponiveis) {
@@ -58,7 +59,7 @@ public class SearchTreeMounter {
 			No filho = null;
 			for(Proposta p : propostas){
 				if(!RestrictionsChecker.isRespeitaRestricoes(p)){continue;}
-				withoutIntersection = new PriorityQueue<>(disponiveis);
+				withoutIntersection = new PriorityQueue<Turma>(disponiveis);
 				withoutIntersection.removeAll(p.getTurmas());
 				if(!withoutIntersection.isEmpty()){
 					continue;
@@ -69,8 +70,8 @@ public class SearchTreeMounter {
 		}else{
 			Turma pivo = disponiveis.peek();
 			List<Proposta> bidsSelected = propostas.parallelStream().filter(p -> p.getTurmas().contains(pivo)).collect(Collectors.toList());
-			List<Proposta> bidsToAdd = new ArrayList<>();
-			Set<Proposta> allCombinations = new HashSet();
+			List<Proposta> bidsToAdd = new ArrayList<Proposta>();
+			Set<Proposta> allCombinations = new HashSet<Proposta>();
 			int tamanhoInicial = bidsSelected.size();
 			Proposta roadBid = null;
 			
@@ -85,7 +86,7 @@ public class SearchTreeMounter {
 			
 			No noFilho;
 			PriorityQueue<Turma> newTurmasDisponiveis = null;
-			List<Proposta> temp = new ArrayList<>();
+			List<Proposta> temp = new ArrayList<Proposta>();
 			for(Proposta p : bidsSelected){
 				if(!RestrictionsChecker.isRespeitaRestricoes(p)){
 					continue;

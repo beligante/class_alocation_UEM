@@ -7,6 +7,7 @@ import entity.No;
 import entity.Professor;
 import entity.Proposta;
 import entity.Turma;
+import solver.CombinatorialAuctionSolver;
 
 public class Test {
 

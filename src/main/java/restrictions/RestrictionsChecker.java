@@ -1,3 +1,4 @@
+package restrictions;
 import java.util.List;
 
 import entity.Proposta;
