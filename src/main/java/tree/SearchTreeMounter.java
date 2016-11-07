@@ -41,6 +41,13 @@ public class SearchTreeMounter {
 		this.turmas.addAll(turmas);
 		mountValorPropostaMap();
 		mountValorEstimadoMap();
+		
+		List<Turma> clone = CollectionUtils.clone(turmas);
+		for(Proposta p : propostas){
+			clone.removeAll(p.getTurmas());
+		}
+		this.turmas.removeAll(clone);
+		System.out.println(clone);
 	}
 	
 	public List<Folha> mount(){
@@ -49,11 +56,14 @@ public class SearchTreeMounter {
 		
 		mountTree(raiz, new ArrayList<Proposta>(propostas), 0, 0, turmas);
 		
-		return new ArrayList(folhas);
+		return new ArrayList<Folha>(folhas);
 	}
 
 	private void mountTree(No noPai, List<Proposta> propostas, int nivel, float acumulador, PriorityQueue<Turma> disponiveis) {
-		if(CollectionUtils.isNullOrEmpty(propostas)){return;}
+		Turma pivo = null;
+		if(CollectionUtils.isNullOrEmpty(propostas)){
+			return;
+		}
 		if(nivel == penultimateLevel){
 			PriorityQueue<Turma> withoutIntersection = null;
 			No filho = null;
@@ -66,10 +76,12 @@ public class SearchTreeMounter {
 				}
 				filho = new No(noPai, p);
 				folhas.add(new Folha(filho, acumulador + p.getValor()));
+				System.out.println("Folha founded!");
 			}
 		}else{
-			Turma pivo = disponiveis.peek();
-			List<Proposta> bidsSelected = propostas.parallelStream().filter(p -> p.getTurmas().contains(pivo)).collect(Collectors.toList());
+			pivo = disponiveis.peek();
+			Turma itPivo = pivo;
+			List<Proposta> bidsSelected = propostas.parallelStream().filter(p -> p.getTurmas().contains(itPivo)).collect(Collectors.toList());
 			List<Proposta> bidsToAdd = new ArrayList<Proposta>();
 			Set<Proposta> allCombinations = new HashSet<Proposta>();
 			int tamanhoInicial = bidsSelected.size();
@@ -81,8 +93,11 @@ public class SearchTreeMounter {
 				allCombinations.addAll(geraCombinacoesPossiveis(roadBid,propostas));
 			}
 			
-			bidsSelected.addAll(allCombinations.parallelStream().filter(p -> p.getTurmas().contains(pivo)).collect(Collectors.toList()));
-			bidsToAdd.addAll(allCombinations.parallelStream().filter(p -> !p.getTurmas().contains(pivo)).collect(Collectors.toList()));
+			bidsSelected.addAll(allCombinations.parallelStream().filter(p -> p.getTurmas().contains(itPivo)).collect(Collectors.toList()));
+			bidsToAdd.addAll(allCombinations.parallelStream().filter(p -> !p.getTurmas().contains(itPivo)).collect(Collectors.toList()));
+			
+			bidsSelected = bidsSelected.stream().filter(b -> RestrictionsChecker.isRespeitaRestricoes(b)).collect(Collectors.toList());
+			bidsToAdd = bidsToAdd.stream().filter(b -> RestrictionsChecker.isRespeitaRestricoes(b)).collect(Collectors.toList());
 			
 			No noFilho;
 			PriorityQueue<Turma> newTurmasDisponiveis = null;
@@ -105,6 +120,10 @@ public class SearchTreeMounter {
 				mountTree(noFilho, temp, nivel + 1, acumulador + p.getValor(), newTurmasDisponiveis);
 			}
 		}
+		//System.err.println("ERRR Lv==>" + nivel);
+		//System.err.println("ERRR Pv==>" + pivo);
+		//noPai.printDecendency();
+		
 	}
 
 	private Collection<Proposta> geraCombinacoesPossiveis(Proposta roadBid, List<Proposta> propostas) {

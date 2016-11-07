@@ -1,12 +1,13 @@
 package entity;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class Proposta {
 	
 	private Professor professor;
 	private float valor;
-	private List<Turma> turmas;
+	private List<Turma> turmas = new ArrayList<>();
 	
 	public Proposta(){}
 	
@@ -35,9 +36,26 @@ public class Proposta {
 		this.turmas = turmas;
 	}
 	
+	public void addTurma(Turma turma) {
+		this.turmas.add(turma);
+	}
+	
+	public void removeTurma(Turma turma){
+		this.turmas.remove(turma);
+	}
+	
+	
+	public int getCargaHoraria(){
+		return turmas
+				.parallelStream()
+				.reduce(0,
+						(sum, p) -> sum += p.getCargaHoraria(),
+						(sum1, sum2) -> sum1 + sum2);
+	}
+	
 	@Override
 	public String toString() {
-		return String.format("Professor (%s) \n Turmas = %s", professor.getId(), turmas.toString());
+		return String.format("Professor (%s) - Turmas = %s \n", professor.getId(), turmas.toString());
 	}
 	
 	@Override

@@ -23,4 +23,11 @@ public class No {
 	public void setProposta(Proposta proposta) {
 		this.proposta = proposta;
 	}
+	
+	public void printDecendency(){
+		System.out.println(proposta);
+		if(pai != null){
+			pai.printDecendency();
+		}
+	}
 }

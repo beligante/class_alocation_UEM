@@ -62,4 +62,12 @@ public class Professor {
 		}
 		return false;
 	}
+
+	@Override
+	public String toString() {
+		return "Professor [id=" + id + ", nome=" + nome + ", cargaHorariaMinima=" + cargaHorariaMinima
+				+ ", cargaHorariaMaxima=" + cargaHorariaMaxima + "]";
+	}
+	
+	
 }

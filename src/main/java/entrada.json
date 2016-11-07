@@ -1,0 +1,1144 @@
+{
+  "turmas": [
+    {
+      "id": 10291,
+      "nome": "TRABALHO DE GRADUACAO",
+      "semestre": 1,
+      "cargaHoraria": 12
+    },
+    {
+      "id": 10291,
+      "nome": "TRABALHO DE GRADUACAO",
+      "semestre": 2,
+      "cargaHoraria": 12
+    },
+    {
+      "id": 15901,
+      "nome": "FUNDAMENTOS DA COMPUTACAO",
+      "semestre": 1,
+      "cargaHoraria": 3
+    },
+    {
+      "id": 15901,
+      "nome": "FUNDAMENTOS DA COMPUTACAO",
+      "semestre": 2,
+      "cargaHoraria": 3
+    },
+    {
+      "id": 15902,
+      "nome": "FUNDAMENTOS DA COMPUTACAO",
+      "semestre": 1,
+      "cargaHoraria": 3
+    },
+    {
+      "id": 15902,
+      "nome": "FUNDAMENTOS DA COMPUTACAO",
+      "semestre": 2,
+      "cargaHoraria": 3
+    },
+    {
+      "id": 164031,
+      "nome": "FUNDAMENTOS DA COMPUTACAO",
+      "semestre": 2,
+      "cargaHoraria": 4
+    },
+    {
+      "id": 164032,
+      "nome": "FUNDAMENTOS DA COMPUTACAO",
+      "semestre": 2,
+      "cargaHoraria": 4
+    },
+    {
+      "id": 168431,
+      "nome": "METODOS FORMAIS II",
+      "semestre": 1,
+      "cargaHoraria": 4
+    },
+    {
+      "id": 17531,
+      "nome": "AMBIENTES DE DESENV. DE SOFTWARE",
+      "semestre": 2,
+      "cargaHoraria": 4
+    },
+    {
+      "id": 25361,
+      "nome": "FUNDAMENTOS DE PROGRAMACAO",
+      "semestre": 2,
+      "cargaHoraria": 3
+    },
+    {
+      "id": 25362,
+      "nome": "FUNDAMENTOS DE PROGRAMACAO",
+      "semestre": 2,
+      "cargaHoraria": 3
+    },
+    {
+      "id": 25411,
+      "nome": "LABORATORIO DE FUND. DE PROGRAMACAO",
+      "semestre": 2,
+      "cargaHoraria": 1
+    },
+    {
+      "id": 25412,
+      "nome": "LABORATORIO DE FUND. DE PROGRAMACAO",
+      "semestre": 2,
+      "cargaHoraria": 1
+    },
+    {
+      "id": 25413,
+      "nome": "LABORATORIO DE FUND. DE PROGRAMACAO",
+      "semestre": 2,
+      "cargaHoraria": 1
+    },
+    {
+      "id": 25414,
+      "nome": "LABORATORIO DE FUND. DE PROGRAMACAO",
+      "semestre": 2,
+      "cargaHoraria": 1
+    },
+    {
+      "id": 454931,
+      "nome": "ALGORITMOS E PROGRAM. DE COMPUT",
+      "semestre": 2,
+      "cargaHoraria": 6
+    },
+    {
+      "id": 454932,
+      "nome": "ALGORITMOS E PROGRAM. DE COMPUT",
+      "semestre": 2,
+      "cargaHoraria": 6
+    },
+    {
+      "id": 455331,
+      "nome": "ESTRUTURA DE DADOS",
+      "semestre": 1,
+      "cargaHoraria": 4
+    },
+    {
+      "id": 4651901,
+      "nome": "FUNDAMENTOS DA COMPUTACAO",
+      "semestre": 2,
+      "cargaHoraria": 2
+    },
+    {
+      "id": 4651903,
+      "nome": "FUNDAMENTOS DA COMPUTACAO",
+      "semestre": 2,
+      "cargaHoraria": 2
+    },
+    {
+      "id": 4651911,
+      "nome": "FUNDAMENTOS DA COMPUTACAO",
+      "semestre": 2,
+      "cargaHoraria": 2
+    },
+    {
+      "id": 4651915,
+      "nome": "FUNDAMENTOS DA COMPUTACAO",
+      "semestre": 2,
+      "cargaHoraria": 2
+    },
+    {
+      "id": 4651921,
+      "nome": "FUNDAMENTOS DA COMPUTACAO",
+      "semestre": 2,
+      "cargaHoraria": 2
+    },
+    {
+      "id": 4651924,
+      "nome": "FUNDAMENTOS DA COMPUTACAO",
+      "semestre": 2,
+      "cargaHoraria": 2
+    },
+    {
+      "id": 516731,
+      "nome": "FUNDAMENTOS DE TECNOL.DA INFORMACAO",
+      "semestre": 1,
+      "cargaHoraria": 4
+    },
+    {
+      "id": 517131,
+      "nome": "FUND. DE PESQUISA EM INFORMATICA",
+      "semestre": 1,
+      "cargaHoraria": 4
+    },
+    {
+      "id": 517132,
+      "nome": "FUND. DE PESQUISA EM INFORMATICA",
+      "semestre": 1,
+      "cargaHoraria": 4
+    },
+    {
+      "id": 517431,
+      "nome": "CIRCUITOS DIGITAIS",
+      "semestre": 2,
+      "cargaHoraria": 4
+    },
+    {
+      "id": 517432,
+      "nome": "CIRCUITOS DIGITAIS",
+      "semestre": 2,
+      "cargaHoraria": 4
+    },
+    {
+      "id": 517433,
+      "nome": "CIRCUITOS DIGITAIS",
+      "semestre": 2,
+      "cargaHoraria": 4
+    },
+    {
+      "id": 517434,
+      "nome": "CIRCUITOS DIGITAIS",
+      "semestre": 2,
+      "cargaHoraria": 4
+    },
+    {
+      "id": 517531,
+      "nome": "FUNDAMENTOS DE ALGORITMOS",
+      "semestre": 2,
+      "cargaHoraria": 6
+    },
+    {
+      "id": 517532,
+      "nome": "FUNDAMENTOS DE ALGORITMOS",
+      "semestre": 2,
+      "cargaHoraria": 6
+    },
+    {
+      "id": 517533,
+      "nome": "FUNDAMENTOS DE ALGORITMOS",
+      "semestre": 2,
+      "cargaHoraria": 6
+    },
+    {
+      "id": 517631,
+      "nome": "PROC.DE SOFTWARE E E. DE REQUISITOS",
+      "semestre": 1,
+      "cargaHoraria": 4
+    },
+    {
+      "id": 517632,
+      "nome": "PROC.DE SOFTWARE E E. DE REQUISITOS",
+      "semestre": 1,
+      "cargaHoraria": 4
+    },
+    {
+      "id": 517831,
+      "nome": "ARQ. E ORGANIZACAO DE COMPUTADORES",
+      "semestre": 1,
+      "cargaHoraria": 4
+    },
+    {
+      "id": 518031,
+      "nome": "ESTRUTURAS DE DADOS",
+      "semestre": 1,
+      "cargaHoraria": 6
+    },
+    {
+      "id": 518032,
+      "nome": "ESTRUTURAS DE DADOS",
+      "semestre": 1,
+      "cargaHoraria": 6
+    },
+    {
+      "id": 518131,
+      "nome": "ANALISE DE SISTEMAS DE SOFTWARE",
+      "semestre": 2,
+      "cargaHoraria": 4
+    },
+    {
+      "id": 518132,
+      "nome": "ANALISE DE SISTEMAS DE SOFTWARE",
+      "semestre": 2,
+      "cargaHoraria": 4
+    },
+    {
+      "id": 518231,
+      "nome": "BANCO DE DADOS I",
+      "semestre": 2,
+      "cargaHoraria": 4
+    },
+    {
+      "id": 518331,
+      "nome": "INTERACAO SER-HUMANO COMPUTADOR",
+      "semestre": 2,
+      "cargaHoraria": 4
+    },
+    {
+      "id": 518431,
+      "nome": "PROJETO E ANALISE DE ALGORITMOS",
+      "semestre": 2,
+      "cargaHoraria": 6
+    },
+    {
+      "id": 518432,
+      "nome": "PROJETO E ANALISE DE ALGORITMOS",
+      "semestre": 2,
+      "cargaHoraria": 6
+    },
+    {
+      "id": 518433,
+      "nome": "PROJETO E ANALISE DE ALGORITMOS",
+      "semestre": 2,
+      "cargaHoraria": 6
+    },
+    {
+      "id": 518531,
+      "nome": "PARADIGMA DE PROG.IMP.E O.A OBJETOS",
+      "semestre": 2,
+      "cargaHoraria": 4
+    },
+    {
+      "id": 518532,
+      "nome": "PARADIGMA DE PROG.IMP.E O.A OBJETOS",
+      "semestre": 2,
+      "cargaHoraria": 4
+    },
+    {
+      "id": 518631,
+      "nome": "PROJETO DE SISTEMAS DE SOFTWARE",
+      "semestre": 1,
+      "cargaHoraria": 4
+    },
+    {
+      "id": 518632,
+      "nome": "PROJETO DE SISTEMAS DE SOFTWARE",
+      "semestre": 1,
+      "cargaHoraria": 4
+    },
+    {
+      "id": 518731,
+      "nome": "ORGANIZACAO E RECUPERACAO DE DADOS",
+      "semestre": 1,
+      "cargaHoraria": 4
+    },
+    {
+      "id": 518831,
+      "nome": "PROGRAMACAO DE SISTEMAS WEB",
+      "semestre": 1,
+      "cargaHoraria": 4
+    },
+    {
+      "id": 518931,
+      "nome": "ALGORITMOS EM GRAFOS",
+      "semestre": 1,
+      "cargaHoraria": 4
+    },
+    {
+      "id": 518932,
+      "nome": "ALGORITMOS EM GRAFOS",
+      "semestre": 1,
+      "cargaHoraria": 4
+    },
+    {
+      "id": 519031,
+      "nome": "PROGRAMACAO ORIENTADA A OBJETOS",
+      "semestre": 1,
+      "cargaHoraria": 4
+    },
+    {
+      "id": 519131,
+      "nome": "IMPLEMENTACAO DE SIST. DE SOFTWARE",
+      "semestre": 2,
+      "cargaHoraria": 4
+    },
+    {
+      "id": 519132,
+      "nome": "IMPLEMENTACAO DE SIST. DE SOFTWARE",
+      "semestre": 2,
+      "cargaHoraria": 4
+    },
+    {
+      "id": 519231,
+      "nome": "BANCO DE DADOS II",
+      "semestre": 2,
+      "cargaHoraria": 4
+    },
+    {
+      "id": 519331,
+      "nome": "PROGRAMACAO EM LING. DE MONTAGEM",
+      "semestre": 2,
+      "cargaHoraria": 4
+    },
+    {
+      "id": 519531,
+      "nome": "LINGUAGENS FORMAIS E AUTOMATOS",
+      "semestre": 2,
+      "cargaHoraria": 6
+    },
+    {
+      "id": 519631,
+      "nome": "SISTEMAS OPERACIONAIS",
+      "semestre": 1,
+      "cargaHoraria": 4
+    },
+    {
+      "id": 519731,
+      "nome": "SISTEMAS DIGITAIS",
+      "semestre": 1,
+      "cargaHoraria": 4
+    },
+    {
+      "id": 519831,
+      "nome": "INFORMATICA E SOCIEDADE",
+      "semestre": 1,
+      "cargaHoraria": 2
+    },
+    {
+      "id": 519931,
+      "nome": "MODELAGEM E OTIMIZACAO ALGORITMICA",
+      "semestre": 1,
+      "cargaHoraria": 6
+    },
+    {
+      "id": 520031,
+      "nome": "PARADIGMA DE PROG. LOG. E FUNCIONAL",
+      "semestre": 1,
+      "cargaHoraria": 4
+    },
+    {
+      "id": 520231,
+      "nome": "COMPUTACAO GRAFICA",
+      "semestre": 2,
+      "cargaHoraria": 4
+    },
+    {
+      "id": 520331,
+      "nome": "REDES DE COMPUTADORES",
+      "semestre": 2,
+      "cargaHoraria": 4
+    },
+    {
+      "id": 520431,
+      "nome": "IMPL. DE LINGUAGENS DE PROGRAMACAO",
+      "semestre": 2,
+      "cargaHoraria": 4
+    },
+    {
+      "id": 520531,
+      "nome": "PROGRAMACAO CONCORRENTE",
+      "semestre": 2,
+      "cargaHoraria": 4
+    },
+    {
+      "id": 520631,
+      "nome": "GERENCIAMENTO DE PROJETOS",
+      "semestre": 1,
+      "cargaHoraria": 4
+    },
+    {
+      "id": 520731,
+      "nome": "METODOS FORMAIS",
+      "semestre": 1,
+      "cargaHoraria": 4
+    },
+    {
+      "id": 520831,
+      "nome": "SISTEMAS DISTRIBUIDOS",
+      "semestre": 1,
+      "cargaHoraria": 4
+    },
+    {
+      "id": 520931,
+      "nome": "INTELIGENCIA ARTIFICIAL",
+      "semestre": 1,
+      "cargaHoraria": 6
+    },
+    {
+      "id": 521031,
+      "nome": "TRABALHO DE CONCLUSAO DE CURSO",
+      "semestre": 1,
+      "cargaHoraria": 1
+    },
+    {
+      "id": 521031,
+      "nome": "TRABALHO DE CONCLUSAO DE CURSO",
+      "semestre": 2,
+      "cargaHoraria": 1
+    },
+    {
+      "id": 521131,
+      "nome": "QUALIDADE DE SOFTWARE",
+      "semestre": 2,
+      "cargaHoraria": 4
+    },
+    {
+      "id": 521231,
+      "nome": "GERENCIAMENTO DE REDES DE COMPUT",
+      "semestre": 2,
+      "cargaHoraria": 4
+    },
+    {
+      "id": 52591,
+      "nome": "ALGORITMOS E PROG.DE COMPUTADORES",
+      "semestre": 1,
+      "cargaHoraria": 3
+    },
+    {
+      "id": 52592,
+      "nome": "ALGORITMOS E PROG.DE COMPUTADORES",
+      "semestre": 1,
+      "cargaHoraria": 3
+    },
+    {
+      "id": 52593,
+      "nome": "ALGORITMOS E PROG.DE COMPUTADORES",
+      "semestre": 1,
+      "cargaHoraria": 3
+    },
+    {
+      "id": 52594,
+      "nome": "ALGORITMOS E PROG.DE COMPUTADORES",
+      "semestre": 1,
+      "cargaHoraria": 3
+    },
+    {
+      "id": 52595,
+      "nome": "ALGORITMOS E PROG.DE COMPUTADORES",
+      "semestre": 1,
+      "cargaHoraria": 3
+    },
+    {
+      "id": 52596,
+      "nome": "ALGORITMOS E PROG.DE COMPUTADORES",
+      "semestre": 1,
+      "cargaHoraria": 3
+    },
+    {
+      "id": 66331,
+      "nome": "FUNDAMENTOS DE PROGRAMACAO",
+      "semestre": 1,
+      "cargaHoraria": 3
+    },
+    {
+      "id": 66332,
+      "nome": "FUNDAMENTOS DE PROGRAMACAO",
+      "semestre": 1,
+      "cargaHoraria": 3
+    },
+    {
+      "id": 52591,
+      "nome": "ALGORITMOS E PROG.DE COMPUTADORES",
+      "semestre": 2,
+      "cargaHoraria": 3
+    },
+    {
+      "id": 52592,
+      "nome": "ALGORITMOS E PROG.DE COMPUTADORES",
+      "semestre": 2,
+      "cargaHoraria": 3
+    },
+    {
+      "id": 52593,
+      "nome": "ALGORITMOS E PROG.DE COMPUTADORES",
+      "semestre": 2,
+      "cargaHoraria": 3
+    },
+    {
+      "id": 52594,
+      "nome": "ALGORITMOS E PROG.DE COMPUTADORES",
+      "semestre": 2,
+      "cargaHoraria": 3
+    },
+    {
+      "id": 52595,
+      "nome": "ALGORITMOS E PROG.DE COMPUTADORES",
+      "semestre": 2,
+      "cargaHoraria": 3
+    },
+    {
+      "id": 52596,
+      "nome": "ALGORITMOS E PROG.DE COMPUTADORES",
+      "semestre": 2,
+      "cargaHoraria": 3
+    },
+    {
+      "id": 66331,
+      "nome": "FUNDAMENTOS DE PROGRAMACAO",
+      "semestre": 2,
+      "cargaHoraria": 3
+    },
+    {
+      "id": 66332,
+      "nome": "FUNDAMENTOS DE PROGRAMACAO",
+      "semestre": 2,
+      "cargaHoraria": 3
+    },
+    {
+      "id": 68721,
+      "nome": "FUNDAMENTOS DE ELETRONICA",
+      "semestre": 1,
+      "cargaHoraria": 6
+    },
+    {
+      "id": 68722,
+      "nome": "FUNDAMENTOS DE ELETRONICA",
+      "semestre": 1,
+      "cargaHoraria": 6
+    },
+    {
+      "id": 68723,
+      "nome": "FUNDAMENTOS DE ELETRONICA",
+      "semestre": 1,
+      "cargaHoraria": 6
+    },
+    {
+      "id": 68724,
+      "nome": "FUNDAMENTOS DE ELETRONICA",
+      "semestre": 1,
+      "cargaHoraria": 6
+    },
+    {
+      "id": 68741,
+      "nome": "FUND. DE TECNOLOGIA DA INFORMACAO",
+      "semestre": 1,
+      "cargaHoraria": 4
+    },
+    {
+      "id": 68751,
+      "nome": "FUND. DE PESQUISA EM INFORMATICA",
+      "semestre": 1,
+      "cargaHoraria": 2
+    },
+    {
+      "id": 68781,
+      "nome": "CIRCUITOS DIGITAIS I",
+      "semestre": 2,
+      "cargaHoraria": 6
+    },
+    {
+      "id": 68782,
+      "nome": "CIRCUITOS DIGITAIS I",
+      "semestre": 2,
+      "cargaHoraria": 6
+    },
+    {
+      "id": 68783,
+      "nome": "CIRCUITOS DIGITAIS I",
+      "semestre": 2,
+      "cargaHoraria": 6
+    },
+    {
+      "id": 68784,
+      "nome": "CIRCUITOS DIGITAIS I",
+      "semestre": 2,
+      "cargaHoraria": 6
+    },
+    {
+      "id": 68791,
+      "nome": "FUNDAMENTOS DE ALGORITMOS",
+      "semestre": 2,
+      "cargaHoraria": 6
+    },
+    {
+      "id": 68792,
+      "nome": "FUNDAMENTOS DE ALGORITMOS",
+      "semestre": 2,
+      "cargaHoraria": 6
+    },
+    {
+      "id": 68793,
+      "nome": "FUNDAMENTOS DE ALGORITMOS",
+      "semestre": 2,
+      "cargaHoraria": 6
+    },
+    {
+      "id": 68821,
+      "nome": "CIRCUITOS DIGITAIS II",
+      "semestre": 1,
+      "cargaHoraria": 4
+    },
+    {
+      "id": 68822,
+      "nome": "CIRCUITOS DIGITAIS II",
+      "semestre": 1,
+      "cargaHoraria": 4
+    },
+    {
+      "id": 68831,
+      "nome": "LINGUAGENS FORMAIS E AUTOMATOS",
+      "semestre": 1,
+      "cargaHoraria": 6
+    },
+    {
+      "id": 68841,
+      "nome": "ESTRUTURAS DE DADOS",
+      "semestre": 1,
+      "cargaHoraria": 6
+    },
+    {
+      "id": 68842,
+      "nome": "ESTRUTURAS DE DADOS",
+      "semestre": 1,
+      "cargaHoraria": 6
+    },
+    {
+      "id": 68851,
+      "nome": "PROC.DE SOFT.E ENG. DE REQUISITOS",
+      "semestre": 1,
+      "cargaHoraria": 4
+    },
+    {
+      "id": 68871,
+      "nome": "ARQUIT.E ORGANIZ.DE COMPUTADORES I",
+      "semestre": 2,
+      "cargaHoraria": 6
+    },
+    {
+      "id": 68881,
+      "nome": "PAR.DE PROG.IMP.E ORIENT.A OBJETOS",
+      "semestre": 2,
+      "cargaHoraria": 4
+    },
+    {
+      "id": 68891,
+      "nome": "PROJETO E ANALISE DE ALGORITMOS",
+      "semestre": 2,
+      "cargaHoraria": 6
+    },
+    {
+      "id": 68901,
+      "nome": "INTERACAO SER HUMANO COMPUTADOR",
+      "semestre": 2,
+      "cargaHoraria": 4
+    },
+    {
+      "id": 68911,
+      "nome": "ANALISE DE SISTEMAS DE SOFTWARE",
+      "semestre": 2,
+      "cargaHoraria": 4
+    },
+    {
+      "id": 68921,
+      "nome": "BANCO DE DADOS I",
+      "semestre": 2,
+      "cargaHoraria": 4
+    },
+    {
+      "id": 68941,
+      "nome": "PROG.PARA INT.DE HARDW. E SOFTWARE",
+      "semestre": 1,
+      "cargaHoraria": 4
+    },
+    {
+      "id": 68951,
+      "nome": "ARQUIT.E ORGANIZ.DE COMPUTADORES II",
+      "semestre": 1,
+      "cargaHoraria": 4
+    },
+    {
+      "id": 68961,
+      "nome": "COMPUTABILIDADE",
+      "semestre": 1,
+      "cargaHoraria": 4
+    },
+    {
+      "id": 68971,
+      "nome": "ORGANIZACAO E RECUPERACAO DE DADOS",
+      "semestre": 1,
+      "cargaHoraria": 4
+    },
+    {
+      "id": 68981,
+      "nome": "ALGORITMOS EM GRAFOS",
+      "semestre": 1,
+      "cargaHoraria": 4
+    },
+    {
+      "id": 68991,
+      "nome": "PROJETO DE SISTEMAS DE SOFTWARE",
+      "semestre": 1,
+      "cargaHoraria": 4
+    },
+    {
+      "id": 69001,
+      "nome": "MATEMATICA COMPUTACIONAL",
+      "semestre": 2,
+      "cargaHoraria": 4
+    },
+    {
+      "id": 69011,
+      "nome": "SISTEMAS OPERACIONAIS",
+      "semestre": 2,
+      "cargaHoraria": 6
+    },
+    {
+      "id": 69021,
+      "nome": "PARAD.DE PROGR.LOGICA E FUNCIONAL",
+      "semestre": 2,
+      "cargaHoraria": 4
+    },
+    {
+      "id": 69031,
+      "nome": "MODELAGEM E OTIMIZACAO ALGORITMICA",
+      "semestre": 2,
+      "cargaHoraria": 6
+    },
+    {
+      "id": 69041,
+      "nome": "IMPLEMENT. DE SISTEMAS DE SOFTWARE",
+      "semestre": 2,
+      "cargaHoraria": 4
+    },
+    {
+      "id": 69061,
+      "nome": "COMPUTACAO GRAFICA",
+      "semestre": 1,
+      "cargaHoraria": 4
+    },
+    {
+      "id": 69071,
+      "nome": "REDES DE COMPUTADORES",
+      "semestre": 1,
+      "cargaHoraria": 4
+    },
+    {
+      "id": 69081,
+      "nome": "PROGRAMACAO CONCORRENTE",
+      "semestre": 1,
+      "cargaHoraria": 4
+    },
+    {
+      "id": 69091,
+      "nome": "INTELIGENCIA ARTIFICIAL",
+      "semestre": 1,
+      "cargaHoraria": 4
+    },
+    {
+      "id": 69101,
+      "nome": "BANCO DE DADOS II",
+      "semestre": 1,
+      "cargaHoraria": 4
+    },
+    {
+      "id": 69121,
+      "nome": "GERENC. DE PROJETOS DE SOFTWARE",
+      "semestre": 1,
+      "cargaHoraria": 4
+    },
+    {
+      "id": 69131,
+      "nome": "SISTEMAS DIGITAIS",
+      "semestre": 2,
+      "cargaHoraria": 6
+    },
+    {
+      "id": 69141,
+      "nome": "IMPLEMENT. DE LING. DE PROGRAMACAO",
+      "semestre": 2,
+      "cargaHoraria": 4
+    },
+    {
+      "id": 69151,
+      "nome": "INTELIGENCIA ARTIFICIAL II",
+      "semestre": 2,
+      "cargaHoraria": 4
+    },
+    {
+      "id": 69161,
+      "nome": "METODOS FORMAIS",
+      "semestre": 2,
+      "cargaHoraria": 4
+    },
+    {
+      "id": 69171,
+      "nome": "TRABALHO DE CONCLUSAO DE CURSO I",
+      "semestre": 2,
+      "cargaHoraria": 1
+    },
+    {
+      "id": 69181,
+      "nome": "PROCES. DIGITAL DE SINAIS E IMAGENS",
+      "semestre": 1,
+      "cargaHoraria": 4
+    },
+    {
+      "id": 69191,
+      "nome": "GERENC. DE REDES DE COMPUTADORES",
+      "semestre": 1,
+      "cargaHoraria": 4
+    },
+    {
+      "id": 69201,
+      "nome": "SISTEMAS DISTRIBUIDOS",
+      "semestre": 1,
+      "cargaHoraria": 4
+    },
+    {
+      "id": 69211,
+      "nome": "SISTEMAS HIPERMIDIA E MULTIMIDIA",
+      "semestre": 1,
+      "cargaHoraria": 4
+    },
+    {
+      "id": 69221,
+      "nome": "TRABALHO DE CONCLUSAO DE CURSO II",
+      "semestre": 1,
+      "cargaHoraria": 1
+    },
+    {
+      "id": 69231,
+      "nome": "INFORMATICA E SOCIEDADE",
+      "semestre": 1,
+      "cargaHoraria": 2
+    },
+    {
+      "id": 69241,
+      "nome": "ESTAGIO CURRICULAR SUPERVISIONADO",
+      "semestre": 2,
+      "cargaHoraria": 20
+    },
+    {
+      "id": 723931,
+      "nome": "FUNDAMENTOS DE PROGRAMACAO",
+      "semestre": 1,
+      "cargaHoraria": 3
+    },
+    {
+      "id": 723932,
+      "nome": "FUNDAMENTOS DE PROGRAMACAO",
+      "semestre": 1,
+      "cargaHoraria": 3
+    },
+    {
+      "id": 723933,
+      "nome": "FUNDAMENTOS DE PROGRAMACAO",
+      "semestre": 1,
+      "cargaHoraria": 3
+    },
+    {
+      "id": 723934,
+      "nome": "FUNDAMENTOS DE PROGRAMACAO",
+      "semestre": 1,
+      "cargaHoraria": 3
+    },
+    {
+      "id": 723935,
+      "nome": "FUNDAMENTOS DE PROGRAMACAO",
+      "semestre": 1,
+      "cargaHoraria": 3
+    },
+    {
+      "id": 723936,
+      "nome": "FUNDAMENTOS DE PROGRAMACAO",
+      "semestre": 1,
+      "cargaHoraria": 3
+    },
+    {
+      "id": 723937,
+      "nome": "FUNDAMENTOS DE PROGRAMACAO",
+      "semestre": 1,
+      "cargaHoraria": 3
+    },
+    {
+      "id": 723938,
+      "nome": "FUNDAMENTOS DE PROGRAMACAO",
+      "semestre": 1,
+      "cargaHoraria": 3
+    },
+    {
+      "id": 723931,
+      "nome": "FUNDAMENTOS DE PROGRAMACAO",
+      "semestre": 2,
+      "cargaHoraria": 3
+    },
+    {
+      "id": 723932,
+      "nome": "FUNDAMENTOS DE PROGRAMACAO",
+      "semestre": 2,
+      "cargaHoraria": 3
+    },
+    {
+      "id": 723933,
+      "nome": "FUNDAMENTOS DE PROGRAMACAO",
+      "semestre": 2,
+      "cargaHoraria": 3
+    },
+    {
+      "id": 723934,
+      "nome": "FUNDAMENTOS DE PROGRAMACAO",
+      "semestre": 2,
+      "cargaHoraria": 3
+    },
+    {
+      "id": 723935,
+      "nome": "FUNDAMENTOS DE PROGRAMACAO",
+      "semestre": 2,
+      "cargaHoraria": 3
+    },
+    {
+      "id": 723936,
+      "nome": "FUNDAMENTOS DE PROGRAMACAO",
+      "semestre": 2,
+      "cargaHoraria": 3
+    },
+    {
+      "id": 723937,
+      "nome": "FUNDAMENTOS DE PROGRAMACAO",
+      "semestre": 2,
+      "cargaHoraria": 3
+    },
+    {
+      "id": 723938,
+      "nome": "FUNDAMENTOS DE PROGRAMACAO",
+      "semestre": 2,
+      "cargaHoraria": 3
+    },
+    {
+      "id": 725631,
+      "nome": "ALGORITMO E ESTRUTURA DE DADOS",
+      "semestre": 1,
+      "cargaHoraria": 4
+    },
+    {
+      "id": 725632,
+      "nome": "ALGORITMO E ESTRUTURA DE DADOS",
+      "semestre": 1,
+      "cargaHoraria": 4
+    },
+    {
+      "id": 725633,
+      "nome": "ALGORITMO E ESTRUTURA DE DADOS",
+      "semestre": 1,
+      "cargaHoraria": 4
+    },
+    {
+      "id": 725634,
+      "nome": "ALGORITMO E ESTRUTURA DE DADOS",
+      "semestre": 1,
+      "cargaHoraria": 4
+    },
+    {
+      "id": 732831,
+      "nome": "PROGRAMACAO DE SISTEMAS",
+      "semestre": 1,
+      "cargaHoraria": 4
+    },
+    {
+      "id": 732931,
+      "nome": "SISTEMAS OPERACIONAIS",
+      "semestre": 2,
+      "cargaHoraria": 4
+    },
+    {
+      "id": 733031,
+      "nome": "ARQUIT. E ORGANIZ. DE COMPUTADORES",
+      "semestre": 1,
+      "cargaHoraria": 4
+    },
+    {
+      "id": 733131,
+      "nome": "BANCO DE DADOS",
+      "semestre": 2,
+      "cargaHoraria": 4
+    },
+    {
+      "id": 733231,
+      "nome": "ENGENHARIA DE SOFTWARE I",
+      "semestre": 1,
+      "cargaHoraria": 4
+    },
+    {
+      "id": 733331,
+      "nome": "REDES E COMUNICACAO DE DADOS",
+      "semestre": 1,
+      "cargaHoraria": 4
+    },
+    {
+      "id": 733431,
+      "nome": "ENGENHARIA DE SOFTWARE II",
+      "semestre": 2,
+      "cargaHoraria": 4
+    },
+    {
+      "id": 733531,
+      "nome": "COMPUTACAO DISTRIBUIDA",
+      "semestre": 2,
+      "cargaHoraria": 4
+    },
+    {
+      "id": 733631,
+      "nome": "GERENCIAMENTO DE PROJ. DE SOFTWARE",
+      "semestre": 1,
+      "cargaHoraria": 4
+    },
+    {
+      "id": 733731,
+      "nome": "QUALIDADE DE SOFTWARE",
+      "semestre": 1,
+      "cargaHoraria": 4
+    },
+    {
+      "id": 765531,
+      "nome": "SIST. TECNOLOG. P/AREA SECRETARIAL",
+      "semestre": 1,
+      "cargaHoraria": 4
+    },
+    {
+      "id": 765532,
+      "nome": "SIST. TECNOLOG. P/AREA SECRETARIAL",
+      "semestre": 1,
+      "cargaHoraria": 4
+    },
+    {
+      "id": 77621,
+      "nome": "FUNDAMENTOS DA PROGRAMACAO",
+      "semestre": 1,
+      "cargaHoraria": 3
+    },
+    {
+      "id": 77622,
+      "nome": "FUNDAMENTOS DA PROGRAMACAO",
+      "semestre": 1,
+      "cargaHoraria": 3
+    },
+    {
+      "id": 77623,
+      "nome": "FUNDAMENTOS DA PROGRAMACAO",
+      "semestre": 1,
+      "cargaHoraria": 3
+    },
+    {
+      "id": 77621,
+      "nome": "FUNDAMENTOS DA PROGRAMACAO",
+      "semestre": 2,
+      "cargaHoraria": 3
+    },
+    {
+      "id": 77622,
+      "nome": "FUNDAMENTOS DA PROGRAMACAO",
+      "semestre": 2,
+      "cargaHoraria": 3
+    },
+    {
+      "id": 77623,
+      "nome": "FUNDAMENTOS DA PROGRAMACAO",
+      "semestre": 2,
+      "cargaHoraria": 3
+    },
+    {
+      "id": 80321,
+      "nome": "INFORMATICA APLICADA A AGRONOMIA",
+      "semestre": 2,
+      "cargaHoraria": 3
+    },
+    {
+      "id": 80322,
+      "nome": "INFORMATICA APLICADA A AGRONOMIA",
+      "semestre": 2,
+      "cargaHoraria": 3
+    },
+    {
+      "id": 80323,
+      "nome": "INFORMATICA APLICADA A AGRONOMIA",
+      "semestre": 2,
+      "cargaHoraria": 3
+    },
+    {
+      "id": 80324,
+      "nome": "INFORMATICA APLICADA A AGRONOMIA",
+      "semestre": 2,
+      "cargaHoraria": 3
+    }
+  ]
+}

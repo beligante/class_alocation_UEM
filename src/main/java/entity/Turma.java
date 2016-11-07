@@ -5,6 +5,7 @@ public class Turma {
 	private int id;
 	private String nome;
 	private int cargaHoraria;
+	private int semestre;
 	
 	public Turma() {}
 	
@@ -41,7 +42,7 @@ public class Turma {
 	
 	@Override
 	public String toString() {
-		return "ID =" + id ;
+		return "ID=" + id + ", SEM=" + semestre;
 	}
 	
 	@Override
@@ -53,8 +54,18 @@ public class Turma {
 	public boolean equals(Object obj) {
 	
 		if(obj != null && obj instanceof Turma){
-			return ((Turma) obj).id  == id;
+			return ((Turma) obj).id  == id && ((Turma) obj).semestre == semestre;
 		}
 		return false;
 	}
+
+	public int getSemestre() {
+		return semestre;
+	}
+
+	public void setSemestre(int semestre) {
+		this.semestre = semestre;
+	}
+	
+	
 }

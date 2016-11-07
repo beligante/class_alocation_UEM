@@ -5,6 +5,7 @@ import java.util.Collection;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
+import java.util.stream.Collectors;
 
 public class CollectionUtils {
 
@@ -52,5 +53,9 @@ public class CollectionUtils {
 			aResult.add(localCombination);
 		}
 		return aResult;
+	}
+	
+	public static <T> List<T> clone(List<T> list){
+		return list.stream().collect(Collectors.toList());
 	}
 }

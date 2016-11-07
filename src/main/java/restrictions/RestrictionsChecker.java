@@ -3,6 +3,7 @@ import java.util.List;
 
 import entity.Proposta;
 import entity.Turma;
+import utils.CollectionUtils;
 
 public class RestrictionsChecker {
 
@@ -11,6 +12,10 @@ public class RestrictionsChecker {
 	}
 	
 	private static boolean isCargaHorariaRespeitada(Proposta p){
+		if(CollectionUtils.isNullOrEmpty(p.getTurmas()) 
+				&& p.getProfessor().getCargaHorariaMaxima() > 0){
+			return false;
+		}
 		int cargaHoraria = getCargaHoraria(p.getTurmas());
 		return p.getProfessor().getCargaHorariaMaxima() >= cargaHoraria 
 				&& cargaHoraria >= p.getProfessor().getCargaHorariaMinima();
